@@ -9,7 +9,7 @@ Fix for PrintNightmare CVE-2021-34527
 powershell.exe -executionpolicy bypass -file .\disable-spooler.ps1
 ```
 
-## For batch disable, make a server list with the names of all your server (example serverlist.txt) than run disable-spooler.cmd file as administrator to disable spooler on all your servers  
+## For batch disabling, make a server list with the names of all your servers (e.g. serverlist.txt) and run the file disable-spooler.cmd as administrator to disable the spooler on all your servers  
 ```
 powershell.exe -executionpolicy bypass -file .\disable-spooler.cmd
 ```
