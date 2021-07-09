@@ -5,7 +5,7 @@ Fix for PrintNightmare CVE-2021-34527
 ```
 powershell.exe -executionpolicy bypass -file .\deny-drivers.ps1
 ```
-## To install nw Printers execute as Admin
+## To install new Printers execute as Admin
 ```
 powershell.exe -executionpolicy bypass -file .\allow-drivers.ps1
 ```
